@@ -1,5 +1,5 @@
 let
-  inherit (import ./one.nix) tick;
+  inherit (import ./one.nix) one;
 in [
   {
     name = "one: returns list with 1";

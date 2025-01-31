@@ -1,6 +1,6 @@
 {
-  tick = list: let
-    one = 1;
+  one = let
+    number_one = 1;
   in
-    [one];
+    [number_one];
 }
